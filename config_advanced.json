@@ -1,0 +1,24 @@
+{
+  "num_clients": 15,
+  "num_rounds": 100,
+  "client_fraction": 0.4,
+  "local_epochs": 5,
+  "batch_size": 64,
+  "learning_rate": 0.008,
+  "noise_multiplier": 1.5,
+  "l2_norm_clip": 0.8,
+  "data_size_per_client": 1200,
+  "num_features": 30,
+  "num_classes": 2,
+  "description": "Configuration avancée pour simulation réaliste Open Banking",
+  "institution_types": {
+    "traditional_banks": 5,
+    "fintech": 5,
+    "universal_banks": 5
+  },
+  "privacy_settings": {
+    "differential_privacy": true,
+    "secure_aggregation": true,
+    "local_personalization": true
+  }
+}
